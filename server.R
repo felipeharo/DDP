@@ -28,11 +28,6 @@ fat<-function(height,weight,age,gender,type){
 
 shinyServer(
   function(input,output){
-#     output$age<-renderPrint({input$age})
-#     output$height<-renderPrint({input$height})
-#     output$gender<-renderPrint({input$gender})
-#     output$type<-renderPrint({input$type})
-#     output$weight<-renderPrint({input$weight})
       output$value<-renderPrint({
         if (input$goButton == 0)
           return("")

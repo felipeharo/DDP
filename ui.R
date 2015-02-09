@@ -12,17 +12,6 @@ shinyUI(pageWithSidebar(
     actionButton("goButton","GO!")
   ),
   sidebarPanel(
-#     h4('You entered'),
-#     h5('Age:'),
-#     verbatimTextOutput("age"),
-#     h5('Height:'),
-#     verbatimTextOutput("height"),
-#     h5('Weight:'),
-#     verbatimTextOutput("weight"),
-#     h5('Gender:'),
-#     verbatimTextOutput("gender"),
-#     h5('Type:'),
-#     verbatimTextOutput("type"),
     h3('This is your Body Fat Percentage:'),
     verbatimTextOutput("value"),
     h3('This is your Body Mass Index:'),
